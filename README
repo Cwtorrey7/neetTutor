@@ -1,4 +1,23 @@
+Project: neetTutor
 Creator: Chris Torrey
 Date Last Edited: 11/10/2024
+Description: 
 
-AMONGUS!
+-- Startup Information (septs 0-3 are completed in setup.sh) --
+  0. Ensure that PyTorch, pip, tiktoken, and protobuf are up to date.
+
+  1. Create a virutal enviroment in the project directory:
+  	   python -m venv .env
+
+  2. Activate the virtual enviroment:
+  	   source .env/bin/activate
+
+  3. Install the required libraries - transformers, datasets, evaluate, and
+	 accelerate:
+	   pip install transformers datasets evaluate accelerate
+
+  3a. If you utilized setup.sh you will have to manually run step 2 after the
+	  script runs to completion due to bash sources not propogating out of the
+	  script
+
+  4. Run the 
